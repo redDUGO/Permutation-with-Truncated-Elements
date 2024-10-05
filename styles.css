@@ -1,0 +1,124 @@
+body { 
+    font-family: 'Poppins', sans-serif;  
+    background: linear-gradient(135deg, #f8c291, #6a89cc); 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+ 
+.container { 
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: white; 
+    border-radius: 15px; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+    text-align: center;
+}
+
+header { 
+    padding: 20px;
+    border-bottom: 2px solid #eaeaea; 
+}
+
+h1 {
+    font-size: 2.8em; 
+    color: #2c3e50; 
+    margin-bottom: 5px;
+}
+
+p {
+    color: #7f8c8d; 
+    font-size: 1.1em;
+}
+
+main { 
+    margin-top: 30px;
+}
+
+h2 {
+    color: #34495e; 
+    font-size: 1.8em;
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+input[type="text"], 
+input[type="number"] {
+    width: 100%; 
+    max-width: 350px; 
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #dcdde1; 
+    border-radius: 25px; 
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); 
+    font-size: 1.1em;
+    text-align: center;
+    transition: 0.3s; 
+}
+
+
+input:focus { 
+    border-color: #0984e3; 
+    outline: none; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+}
+
+button { 
+    background-color: #0984e3; 
+    color: white; 
+    border: none;
+    border-radius: 25px; 
+    padding: 12px 25px;
+    cursor: pointer; 
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+    margin: 10px;
+}
+
+button:hover { 
+    background-color: #74b9ff; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.input-section, 
+.criteria-section {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 15px; 
+    background-color: #f1f2f6; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul { 
+    list-style: none; 
+    padding: 0;
+    text-align: left;
+    margin-top: 20px;
+}
+
+li { 
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px; 
+    background-color: #74b9ff; 
+    color: white; 
+    font-size: 1.2em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.gift-list h2, 
+.recommendations h2 {
+    color: #0984e3; 
+    font-size: 1.6em;
+}
+
+footer { 
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #7f8c8d; 
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Birthday Gift Recommendation System</title>
+        <link rel="stylesheet" href="styles.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    </head>
+
+<body>
+    <div class="container"> 
+
+        <header> 
+            <h1>🎁 Birthday Gift Recommendation System 🎉</h1>
+            <p>Find the perfect gift combinations within your budget!</p>
+        </header>
+
+        <main>
+            <div class="input-section"> 
+                <h2>Add Gifts</h2>
+                <input type="text" id="giftName" placeholder="Gift Name" required> 
+                <input type="number" id="giftPrice" placeholder="Gift Price" required> 
+                <button id="addGiftBtn">+</button> 
+            </div>
+
+            <div class="criteria-section"> 
+                <h2>Set Recommendation Criteria</h2>
+                <input type="number" id="numGifts" placeholder="Number of Gifts" min="1" required> 
+                <input type="number" id="budget" placeholder="Budget" min="1" required> 
+                <button id="recommendBtn">Recommend Gifts</button> 
+            </div>
+
+            <div class="gift-list"> 
+                <h2>Gift List</h2>
+                <ul id="giftList"></ul> 
+            </div>
+
+            <div class="recommendations"> 
+                <h2>Recommendations</h2>
+                <ul id="recommendationsList"></ul> 
+            </div>
+        </main>
+
+        <footer> 
+            <p>Created with ❤️ for special birthdays!</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
+ 
